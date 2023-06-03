@@ -1,9 +1,10 @@
+import SearchBar from '@/components/dashboard/SearchBar'
 import Image from 'next/image'
 
 export default function Dashboard() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Content</p>
+    <main className="flex min-h-screen flex-col items-center justify-between">
+        <SearchBar />
     </main>
   )
 }
