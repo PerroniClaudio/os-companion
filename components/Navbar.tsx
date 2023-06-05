@@ -4,7 +4,7 @@ type Props = {}
 
 function Navbar({}: Props) {
   return (
-    <nav className='w-full bg-gray-900 shadow h-16 sticky top-0'>
+    <nav className='w-full bg-background-900 shadow h-16 sticky top-0'>
         
     </nav>
   )

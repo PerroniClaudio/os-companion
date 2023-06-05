@@ -5,9 +5,9 @@ type Props = {}
 
 function SidenavRight({}: Props) {
   return (
-    <section className='flex flex-col min-h-screen bg-gray-800 shadow'>
+    <section className='flex flex-col min-h-screen bg-background-700 shadow'>
         <div className="h-16 p-4 ">
-            <button className='p-2 text-lg font-extrabold text-white bg-os-secondary-500 rounded w-full shadow'>
+            <button className='p-2 text-lg font-extrabold text-white bg-accent-500 rounded w-full shadow'>
                 LOGIN
             </button>
         </div>
